@@ -4,5 +4,8 @@ module.exports = {
     list: async () => {
         return films;
     },
+    create: async () => {
+        throw Error('error al crear pelicula')
+    }
     
 }

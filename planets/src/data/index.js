@@ -4,5 +4,9 @@ module.exports = {
     list: async () => {
         return planets;
     },
+
+    create: async () => {
+        throw Error('error al crear planeta')
+    }
     
 }
