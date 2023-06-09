@@ -5,9 +5,9 @@ const { planetValidation } = require ('../middlewares')
 const router = Router();
 
 
-router.get("/", controlers.getCharacters)
+router.get("/", controlers.getPlanets)
 
-router.post("/", planetValidation, controlers.createCharacters)
+router.post("/", planetValidation, controlers.createPlanets)
 
 
 module.exports = router;
